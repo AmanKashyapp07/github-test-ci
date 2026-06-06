@@ -1,5 +1,0 @@
-{
-  "language": "C++",
-  "imageName": "gcc:13",
-  "runCommand": "make test"
-}
