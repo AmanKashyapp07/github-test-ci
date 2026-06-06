@@ -22,7 +22,7 @@ describe('E-commerce Checkout Pipeline Tests', () => {
     const result = calculateTotal(items, null, 'STANDARD');
     expect(result.subtotal).toBe(125.00);
     expect(result.shipping).toBe(5.00);
-    expect(result.total).toBe(131.00);
+    expect(result.total).toBe(130.00);
   }, 20000);
 
   test('Stage 2/4: Inventory and stock checks', async () => {
