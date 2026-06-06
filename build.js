@@ -21,4 +21,4 @@ for (const file of sourceFiles) {
 }
 
 fs.writeFileSync(path.join(distDir, 'bundle.js'), bundleContent);
-console.log('✔ Compilation completed successfully. Output saved to dist/bundle.js');
+console.log('✔ Compilation completed successfully. Output saved to dist/bundle.js'); // what does bundle.js do? It contains all the JavaScript code for the application, bundled together for production use.
