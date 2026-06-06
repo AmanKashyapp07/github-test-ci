@@ -33,7 +33,7 @@ function calculateTotal(items, discountCode = null, shippingMethod = 'STANDARD')
     subtotal: parseFloat(subtotal.toFixed(2)),
     discount: parseFloat(discount.toFixed(2)),
     shipping: parseFloat(shipping.toFixed(2)),
-    total: parseFloat(total.toFixed(2))
+    total: parseFloat(total.toFixed(2))+100
   };
 }
 
