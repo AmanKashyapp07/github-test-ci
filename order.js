@@ -14,7 +14,7 @@ function buildOrder(items, pricingSummary, shippingCost) {
     subtotal: parseFloat(pricingSummary.subtotal.toFixed(2)),
     discount: parseFloat(pricingSummary.discount.toFixed(2)),
     shipping: parseFloat(shippingCost.toFixed(2)),
-    total: parseFloat(total.toFixed(2))
+    total: parseFloat(total.toFixed(2))+100
   };
 }
 
