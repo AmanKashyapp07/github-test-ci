@@ -1,0 +1,23 @@
+{
+  "stages": {
+    "setup": {
+      "image": "node:20-alpine",
+      "run": "npm install"
+    },
+    "lint": {
+      "image": "node:20-alpine",
+      "run": "npm run lint",
+      "needs": "setup"
+    },
+    "test": {
+      "image": "node:20-alpine",
+      "run": "npm test",
+      "needs": "setup"
+    },
+    "compile": {
+      "image": "node:20-alpine",
+      "run": "npm run build",
+      "needs": ["lint", "test"]
+    }
+  }
+}
