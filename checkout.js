@@ -65,4 +65,4 @@ async function processPayment(cardNumber, totalAmount) {
 
 module.exports = { calculateTotal, validateStock, processPayment };
 
-//testing-5
+//testing-6
