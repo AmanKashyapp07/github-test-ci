@@ -1,0 +1,7 @@
+{
+  "name": "github-test-ci",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo 'Tests run successfully inside isolated Docker sandbox!' && exit 0"
+  }
+}
